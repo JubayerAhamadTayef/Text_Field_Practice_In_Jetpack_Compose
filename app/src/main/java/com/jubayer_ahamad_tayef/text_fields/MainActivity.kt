@@ -76,7 +76,7 @@ fun MyTextFields() {
             keyboardOptions = KeyboardOptions(
                 capitalization = KeyboardCapitalization.Sentences,
                 autoCorrect = false,
-                keyboardType = KeyboardType.Number,
+                keyboardType = KeyboardType.Text,
                 imeAction = ImeAction.Done
             ),
             keyboardActions = KeyboardActions(onDone = { Log.d("ImeTest", "onDone Clicked!") } ),
